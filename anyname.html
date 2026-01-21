@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+     <style>
+       .navbar{
+           background-color: burlywood;
+           padding: 16px 30px;
+           width: 100%;
+       }
+       .nav-container{
+           display: flex;
+           justify-content: space-between;
+           align-items: center;
+           width: 90%;
+       }
+       .logo{
+           color: white;
+           font-size: 32px;
+           font-weight: bold;
+       }
+       .nav-menu{
+           display: flex;
+           list-style: none;
+           gap: 40px;
+       }
+       .nav-link{
+           color: white;
+           text-decoration: none;
+           font-size: 20px;
+           font-weight: bold;
+       }
+       .nav-link:hover{
+           background-color: white;
+           color: black;
+           text-decoration: underline;
+           padding: 10px;
+           border-radius: 16px;
+       }
+       .signup-btn{
+           font-weight: bold;
+           font-size: 20px;
+           background-color: lightskyblue;
+           color: midnightblue;
+           border-radius: 40px;
+           padding: 12px 30px;
+       }
+       .signup-btn:hover{
+           background-color: blue;
+           color: plum;
+       }
+       img{
+           width: 50%;
+           margin: 20px 300px;
+       }
+       main{
+           background-color: darkslategray;
+           padding: 30px;
+           border-radius: 10px;
+           margin: 20px auto;
+           max-width: 1000px;
+       }
+       h1{
+           color: white;
+           text-align: center;
+           font-size: 60px;
+           text-decoration: underline;
+       }
+       p{
+           font-size: 20px;
+           color: white;
+           border-radius: 10px;
+           border-block: 3px solid white;
+       }
+       h2{
+           color: white;
+           text-align: center;
+           font-size: 30px;
+           text-decoration: none;
+           border-bottom: 5px solid white;
+       }
+       .hero-image{
+           background-image: url("../college-website2/assets/images/women-3978565_1280.jpg");
+           height: 553px;
+           border-radius: 12px;
+           background-size: cover;
+           background-position: center;
+       }
+       .hero-text{
+           color: palegreen;
+           text-decoration: underline;
+           /*text-align: left;*/
+           font-weight: bold;
+           font-size: 35px;
+           position: relative;
+           top:50%;
+       }
+       .core-values{
+           font-size: 20px;
+           font-weight: bold;
+           color: blue;
+           background-color: white;
+           border-radius: 10px;
+           font-family: "MathJax_Caligraphic";
+       }
+       iframe{
+           width: 100%;
+           border-radius: 15px;
+       }
+       footer{
+           text-decoration: underline;
+       }
+
+    </style>
+</head>
+<body>
+<nav class="navbar">
+    <div class="nav-container">
+        <div class="logo">
+            MyBrand
+            </div>
+
+    <ul class="nav-menu">
+        <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+        <li class="nav-item"><a href="#about"class="nav-link">About Us</a></li>
+        <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+        <li class="nav-item"><a href="#gallery" class="nav-link">Gallery</a></li>
+    </ul>
+        <div class="nav-button">
+            <button class="signup-btn">Sign Up</button>
+        </div>
+        </div>
+</nav>
+<main>
+    <section class="about-us">
+        <h1>About us</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet atque consequuntur earum minus necessitatibus nulla qui rem repudiandae saepe tenetur veritatis, voluptatem. Adipisci amet debitis deserunt doloribus eligendi enim exercitationem fuga, illum itaque iure molestias nisi omnis repellat repudiandae unde voluptas voluptatum.</p>
+        <h2>Our Mission</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam aperiam blanditiis commodi consequatur cumque, dolor dolore dolorem enim eos eum ex fugit hic incidunt ipsam iusto molestiae nemo non nostrum obcaecati omnis provident quia quibusdam quidem sequi tempora voluptatem voluptatibus.</p>
+    </section>
+    <section class="about">
+        <div class="hero-image">
+            <div class="hero-text">THE NAIROBI UNIVERSITY</div>
+        </div>
+    </section>
+    <section>
+        <h2>Our Core Values</h2>
+        <ul class="core-values">
+            <li>Compassion</li>
+            <li>Exellence</li>
+            <li>Innovation</li>
+            <li>Integrity</li>
+        </ul>
+    </section>
+    <section>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.846304521726!2d36.798140675485925!3d-1.2647554356040323!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f1741d28f6777%3A0xc89ebb559b0da912!2seMobilis%20Technology%20Training%20Institute!5e0!3m2!1sen!2ske!4v1768829399988!5m2!1sen!2ske" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+</main>
+<footer> &copy The Nairobi University.All rights Conserved</footer>
+</body>
+</html>
